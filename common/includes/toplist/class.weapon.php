@@ -21,8 +21,9 @@ class TopList_Weapon extends TopList_Base
 				INNER JOIN kb3_invtypes itm on (typeID = ind.ind_wep_id)";
 
 		$this->setSQLTop($sql);
+-               $sqlbottom .=" and (itm.icon != '' OR groupID = 100)";
 		// since ccps database doesnt have icons for ships this will also fix the ship as weapon bug
-		$sqlbottom .=" and (itm.icon != '' OR groupID = 100)".
+		$sqlbottom .=
 			" group by ind.ind_wep_id order by 1 desc limit 20";
 		$this->setSQLBottom($sqlbottom);
 	}
