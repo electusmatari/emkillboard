@@ -5,7 +5,7 @@
  * @package EDK
  */
 
-$forum_name = "Gradient";
+$forum_name = "Internal";
 require('/etc/emcom/mybbauth.php');
 
 // Enable custom error handling.
