@@ -1,3 +1,15 @@
+========================================================================
+emkillboard: the modified EDK code base that runs the kill board.
+
+"vendor" branch tracks the latest release of 
+https://github.com/evekb/evedev-kb/.
+
+"master" branch is vendor + EM patches to enable forum-based auth
+to control access, a few add-on modules, and other minor tweaks.
+
+"old-master" is the previous EM kill board code based on EDK 4.0.4.
+========================================================================
+
 -------------------------------------------
 Eve Development Network Killboard v4.2.0.0
 -------------------------------------------
