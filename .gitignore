@@ -1,9 +1,6 @@
 # Killboard config
 kbconfig.php
 
-# installation lock file
-install/install.lock
-
 # cache files
 cache/templates_c/
 !cache/templates_c/.htaccess
